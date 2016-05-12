@@ -1,0 +1,103 @@
+2016-05-11 21:25:57.849 CrossAPp.iOS[57354:1308827] Xamarin.iOS: Socket error while connecting to IDE on 127.0.0.1:10000: Connection refused
+2016-05-11 21:25:58.411 CrossAPp.iOS[57354:1308442] warning: Symbol file /Users/marloncasagranda/Library/Developer/CoreSimulator/Devices/41E5A290-D959-4828-BFFD-24137226F37D/data/Containers/Bundle/Application/FEF193F7-D4D0-457D-8A9E-B298AB55940F/CrossAPp.iOS.app/CrossAPp.iOS.exe.mdb doesn't match image /Users/marloncasagranda/Library/Developer/CoreSimulator/Devices/41E5A290-D959-4828-BFFD-24137226F37D/data/Containers/Bundle/Application/FEF193F7-D4D0-457D-8A9E-B298AB55940F/CrossAPp.iOS.app/CrossAPp.iOS.exe
+2016-05-11 21:25:58.520 CrossAPp.iOS[57354:1308442] warning: Symbol file /Users/marloncasagranda/Library/Developer/CoreSimulator/Devices/41E5A290-D959-4828-BFFD-24137226F37D/data/Containers/Bundle/Application/FEF193F7-D4D0-457D-8A9E-B298AB55940F/CrossAPp.iOS.app/CrossAPp.dll.mdb doesn't match image /Users/marloncasagranda/Library/Developer/CoreSimulator/Devices/41E5A290-D959-4828-BFFD-24137226F37D/data/Containers/Bundle/Application/FEF193F7-D4D0-457D-8A9E-B298AB55940F/CrossAPp.iOS.app/CrossAPp.dll
+2016-05-11 21:25:59.633 CrossAPp.iOS[57354:1308442] 
+Unhandled Exception:
+Xamarin.Forms.Xaml.XamlParseException: Position 4:4. Property Content is null or is not IEnumerable
+  at Xamarin.Forms.Xaml.ApplyPropertiesVisitor.Visit (Xamarin.Forms.Xaml.ElementNode node, INode parentNode) <0x17e9e000 + 0x018bb> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.ElementNode.Accept (IXamlNodeVisitor visitor, INode parentNode) <0x17e76bb8 + 0x00195> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.ListNode.Accept (IXamlNodeVisitor visitor, INode parentNode) <0x17e76a68 + 0x00089> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.RootNode.Accept (IXamlNodeVisitor visitor, INode parentNode) <0x17e765e8 + 0x000c9> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (Xamarin.Forms.BindableObject view, System.String xaml) <0x17e52e90 + 0x0037a> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (Xamarin.Forms.BindableObject view, System.Type callingType) <0x17e44408 + 0x00047> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.Extensions.LoadFromXaml[TView] (Xamarin.Forms.Xaml.TView view, System.Type callingType) <0x17e443d8 + 0x0001b> in <filename unknown>:0 
+  at CrossAPp.MainPage.InitializeComponent () <0x17e44308 + 0x0001f> in <filename unknown>:0 
+  at CrossAPp.MainPage.add_BindingContextChanged (System.EventHandler value) <0x17e34730 + 0x0001b> in <filename unknown>:0 
+  at CrossAPp.App.add_PropertyChanging (Xamarin.Forms.PropertyChangingEventHandler value) <0x17df8280 + 0x00033> in <filename unknown>:0 
+  at CrossAPp.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) <0x162f9180 + 0x0002b> in <filename unknown>:0 
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, IntPtr principal, IntPtr delegate) [0x00005] in /Users/builder/data/lanes/3051/5f11db87/source/maccore/src/UIKit/UIApplication.cs:77 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x0001c] in /Users/builder/data/lanes/3051/5f11db87/source/maccore/src/UIKit/UIApplication.cs:60 
+  at CrossAPp.iOS.Application.Main (System.String[] args) <0x162f40d8 + 0x00023> in <filename unknown>:0 
+2016-05-11 21:25:59.634 CrossAPp.iOS[57354:1308442] Unhandled managed exception:
+Position 4:4. Property Content is null or is not IEnumerable (Xamarin.Forms.Xaml.XamlParseException)
+  at Xamarin.Forms.Xaml.ApplyPropertiesVisitor.Visit (Xamarin.Forms.Xaml.ElementNode node, INode parentNode) <0x17e9e000 + 0x018bb> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.ElementNode.Accept (IXamlNodeVisitor visitor, INode parentNode) <0x17e76bb8 + 0x00195> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.ListNode.Accept (IXamlNodeVisitor visitor, INode parentNode) <0x17e76a68 + 0x00089> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.RootNode.Accept (IXamlNodeVisitor visitor, INode parentNode) <0x17e765e8 + 0x000c9> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (Xamarin.Forms.BindableObject view, System.String xaml) <0x17e52e90 + 0x0037a> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.XamlLoader.Load (Xamarin.Forms.BindableObject view, System.Type callingType) <0x17e44408 + 0x00047> in <filename unknown>:0 
+  at Xamarin.Forms.Xaml.Extensions.LoadFromXaml[TView] (Xamarin.Forms.Xaml.TView view, System.Type callingType) <0x17e443d8 + 0x0001b> in <filename unknown>:0 
+  at CrossAPp.MainPage.InitializeComponent () <0x17e44308 + 0x0001f> in <filename unknown>:0 
+  at CrossAPp.MainPage.add_BindingContextChanged (System.EventHandler value) <0x17e34730 + 0x0001b> in <filename unknown>:0 
+  at CrossAPp.App.add_PropertyChanging (Xamarin.Forms.PropertyChangingEventHandler value) <0x17df8280 + 0x00033> in <filename unknown>:0 
+  at CrossAPp.iOS.AppDelegate.FinishedLaunching (UIKit.UIApplication app, Foundation.NSDictionary options) <0x162f9180 + 0x0002b> in <filename unknown>:0 
+  at (wrapper managed-to-native) UIKit.UIApplication:UIApplicationMain (int,string[],intptr,intptr)
+  at UIKit.UIApplication.Main (System.String[] args, IntPtr principal, IntPtr delegate) [0x00005] in /Users/builder/data/lanes/3051/5f11db87/source/maccore/src/UIKit/UIApplication.cs:77 
+  at UIKit.UIApplication.Main (System.String[] args, System.String principalClassName, System.String delegateClassName) [0x0001c] in /Users/builder/data/lanes/3051/5f11db87/source/maccore/src/UIKit/UIApplication.cs:60 
+  at CrossAPp.iOS.Application.Main (System.String[] args) <0x162f40d8 + 0x00023> in <filename unknown>:0 
+2016-05-11 21:25:59.635 CrossAPp.iOS[57354:1308442] critical: Stacktrace:
+
+2016-05-11 21:25:59.635 CrossAPp.iOS[57354:1308442] critical: 
+Native stacktrace:
+
+2016-05-11 21:25:59.681 CrossAPp.iOS[57354:1308442] critical: 	0   CrossAPp.iOS                        0x001e76dd mono_handle_native_sigsegv + 317
+2016-05-11 21:25:59.681 CrossAPp.iOS[57354:1308442] critical: 	1   CrossAPp.iOS                        0x001ef3a1 sigabrt_signal_handler + 145
+2016-05-11 21:25:59.681 CrossAPp.iOS[57354:1308442] critical: 	2   libsystem_platform.dylib            0x07c0a01b _sigtramp + 43
+2016-05-11 21:25:59.682 CrossAPp.iOS[57354:1308442] critical: 	3   ???                                 0xffffffff 0x0 + 4294967295
+2016-05-11 21:25:59.682 CrossAPp.iOS[57354:1308442] critical: 	4   libsystem_sim_c.dylib               0x07991a5a abort + 156
+2016-05-11 21:25:59.682 CrossAPp.iOS[57354:1308442] critical: 	5   CrossAPp.iOS                        0x0037b195 xamarin_unhandled_exception_handler + 325
+2016-05-11 21:25:59.682 CrossAPp.iOS[57354:1308442] critical: 	6   CrossAPp.iOS                        0x001e7f6b mono_invoke_unhandled_exception_hook + 91
+2016-05-11 21:25:59.683 CrossAPp.iOS[57354:1308442] critical: 	7   CrossAPp.iOS                        0x001e6dbd mono_handle_exception_internal + 6029
+2016-05-11 21:25:59.683 CrossAPp.iOS[57354:1308442] critical: 	8   CrossAPp.iOS                        0x001e5629 mono_handle_exception + 41
+2016-05-11 21:25:59.683 CrossAPp.iOS[57354:1308442] critical: 	9   CrossAPp.iOS                        0x001810ce mono_x86_throw_exception + 142
+2016-05-11 21:25:59.683 CrossAPp.iOS[57354:1308442] critical: 	10  ???                                 0x14381f57 0x0 + 339222359
+2016-05-11 21:25:59.683 CrossAPp.iOS[57354:1308442] critical: 	11  ???                                 0x17e76d4e 0x0 + 401042766
+2016-05-11 21:25:59.684 CrossAPp.iOS[57354:1308442] critical: 	12  ???                                 0x17e76af2 0x0 + 401042162
+2016-05-11 21:25:59.684 CrossAPp.iOS[57354:1308442] critical: 	13  ???                                 0x17e766b2 0x0 + 401041074
+2016-05-11 21:25:59.684 CrossAPp.iOS[57354:1308442] critical: 	14  ???                                 0x17e5320b 0x0 + 400896523
+2016-05-11 21:25:59.684 CrossAPp.iOS[57354:1308442] critical: 	15  ???                                 0x17e44450 0x0 + 400835664
+2016-05-11 21:25:59.685 CrossAPp.iOS[57354:1308442] critical: 	16  ???                                 0x17e443f4 0x0 + 400835572
+2016-05-11 21:25:59.685 CrossAPp.iOS[57354:1308442] critical: 	17  ???                                 0x17e44328 0x0 + 400835368
+2016-05-11 21:25:59.685 CrossAPp.iOS[57354:1308442] critical: 	18  ???                                 0x17e3474c 0x0 + 400770892
+2016-05-11 21:25:59.685 CrossAPp.iOS[57354:1308442] critical: 	19  ???                                 0x17df82b4 0x0 + 400523956
+2016-05-11 21:25:59.685 CrossAPp.iOS[57354:1308442] critical: 	20  ???                                 0x162f91ac 0x0 + 372216236
+2016-05-11 21:25:59.685 CrossAPp.iOS[57354:1308442] critical: 	21  ???                                 0x162f92f9 0x0 + 372216569
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	22  CrossAPp.iOS                        0x001f52d1 mono_jit_runtime_invoke + 705
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	23  CrossAPp.iOS                        0x002b100f mono_runtime_invoke + 127
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	24  CrossAPp.iOS                        0x00385b97 xamarin_trampoline + 5559
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	25  UIKit                               0x0326bedc -[UIApplication _handleDelegateCallbacksWithOptions:isSuspended:restoreState:] + 291
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	26  UIKit                               0x0326cbe7 -[UIApplication _callInitializationDelegatesForMainScene:transitionContext:] + 2869
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	27  UIKit                               0x0327016d -[UIApplication _runWithMainScene:transitionContext:completion:] + 1639
+2016-05-11 21:25:59.686 CrossAPp.iOS[57354:1308442] critical: 	28  UIKit                               0x03288d30 __84-[UIApplication _handleApplicationActivationWithScene:transitionContext:completion:]_block_invoke + 59
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	29  UIKit                               0x0326ed7f -[UIApplication workspaceDidEndTransaction:] + 155
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	30  FrontBoardServices                  0x0ad349de __37-[FBSWorkspace clientEndTransaction:]_block_invoke_2 + 71
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	31  FrontBoardServices                  0x0ad3446f __40-[FBSWorkspace _performDelegateCallOut:]_block_invoke + 54
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	32  FrontBoardServices                  0x0ad46425 __31-[FBSSerialQueue performAsync:]_block_invoke + 26
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	33  CoreFoundation                      0x0087a7a0 __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 16
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	34  CoreFoundation                      0x008700b3 __CFRunLoopDoBlocks + 195
+2016-05-11 21:25:59.687 CrossAPp.iOS[57354:1308442] critical: 	35  CoreFoundation                      0x0086ff0b __CFRunLoopRun + 2715
+2016-05-11 21:25:59.688 CrossAPp.iOS[57354:1308442] critical: 	36  CoreFoundation                      0x0086f1ab CFRunLoopRunSpecific + 443
+2016-05-11 21:25:59.688 CrossAPp.iOS[57354:1308442] critical: 	37  CoreFoundation                      0x0086efdb CFRunLoopRunInMode + 123
+2016-05-11 21:25:59.688 CrossAPp.iOS[57354:1308442] critical: 	38  UIKit                               0x0326e744 -[UIApplication _run] + 571
+2016-05-11 21:25:59.688 CrossAPp.iOS[57354:1308442] critical: 	39  UIKit                               0x03271e16 UIApplicationMain + 1526
+2016-05-11 21:25:59.688 CrossAPp.iOS[57354:1308442] critical: 	40  ???                                 0x162f5560 0x0 + 372200800
+2016-05-11 21:25:59.688 CrossAPp.iOS[57354:1308442] critical: 	41  ???                                 0x162f544c 0x0 + 372200524
+2016-05-11 21:25:59.689 CrossAPp.iOS[57354:1308442] critical: 	42  ???                                 0x162f4260 0x0 + 372195936
+2016-05-11 21:25:59.689 CrossAPp.iOS[57354:1308442] critical: 	43  ???                                 0x162f40fc 0x0 + 372195580
+2016-05-11 21:25:59.689 CrossAPp.iOS[57354:1308442] critical: 	44  ???                                 0x162f41b1 0x0 + 372195761
+2016-05-11 21:25:59.689 CrossAPp.iOS[57354:1308442] critical: 	45  CrossAPp.iOS                        0x001f52d1 mono_jit_runtime_invoke + 705
+2016-05-11 21:25:59.690 CrossAPp.iOS[57354:1308442] critical: 	46  CrossAPp.iOS                        0x002b100f mono_runtime_invoke + 127
+2016-05-11 21:25:59.690 CrossAPp.iOS[57354:1308442] critical: 	47  CrossAPp.iOS                        0x002b5ed1 mono_runtime_exec_main + 401
+2016-05-11 21:25:59.690 CrossAPp.iOS[57354:1308442] critical: 	48  CrossAPp.iOS                        0x002b5c95 mono_runtime_run_main + 629
+2016-05-11 21:25:59.690 CrossAPp.iOS[57354:1308442] critical: 	49  CrossAPp.iOS                        0x00178b5d mono_jit_exec + 93
+2016-05-11 21:25:59.690 CrossAPp.iOS[57354:1308442] critical: 	50  CrossAPp.iOS                        0x003950a0 xamarin_main + 2384
+2016-05-11 21:25:59.691 CrossAPp.iOS[57354:1308442] critical: 	51  CrossAPp.iOS                        0x00395981 main + 65
+2016-05-11 21:25:59.691 CrossAPp.iOS[57354:1308442] critical: 	52  libdyld.dylib                       0x078e7ac9 start + 1
+2016-05-11 21:25:59.691 CrossAPp.iOS[57354:1308442] critical: 
+=================================================================
+Got a SIGABRT while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+

@@ -1,0 +1,11 @@
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Debug/CrossAPp.dll.mdb
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Debug/CrossAPp.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/CrossAPp.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/CrossAPp.dll.mdb
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Debug/Xamarin.Forms.Core.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/CrossAPp.Layouts.MainPage.xaml
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/CrossAPp.Layouts.SecondPage.xaml
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/MainPage.xaml.g.cs
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Debug/SecondPage.xaml.g.cs

@@ -1,0 +1,17 @@
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/ibtool/LaunchScreen.nib
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/actool/partial-info.plist
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/actool/asset-manifest.plist
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/actool/_PartialAppManifest.items
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/actool/_BundleResourceWithLogicalName.items
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/optimized/
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/CrossAPp.iOS.exe.mdb
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/CrossAPp.iOS.exe
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/CrossAPp.iOS.exe
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhone/Release/CrossAPp.iOS.exe.mdb
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/Xamarin.Forms.Core.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/Xamarin.Forms.Xaml.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/CrossAPp.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhone/Release/CrossAPp.dll.mdb

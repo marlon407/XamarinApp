@@ -1,0 +1,11 @@
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/CrossAPp.Layouts.MainPage.xaml
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/CrossAPp.Layouts.SecondPage.xaml
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/MainPage.xaml.g.cs
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/SecondPage.xaml.g.cs
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Release/CrossAPp.dll.mdb
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Release/CrossAPp.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/CrossAPp.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/obj/Release/CrossAPp.dll.mdb
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Release/Xamarin.Forms.Core.dll
+/Users/marloncasagranda/Projects/CrossAPp/CrossAPp/bin/Release/Xamarin.Forms.Xaml.dll

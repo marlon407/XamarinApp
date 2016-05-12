@@ -1,0 +1,17 @@
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/ibtool/LaunchScreen.nib
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/actool/partial-info.plist
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/actool/asset-manifest.plist
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/optimized/
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/CrossAPp.iOS.exe.mdb
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/CrossAPp.iOS.exe
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/CrossAPp.iOS.exe
+/Users/marloncasagranda/Projects/CrossAPp/iOS/obj/iPhoneSimulator/Release/CrossAPp.iOS.exe.mdb
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Platform.iOS.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Core.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/Xamarin.Forms.Xaml.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/CrossAPp.dll
+/Users/marloncasagranda/Projects/CrossAPp/iOS/bin/iPhoneSimulator/Release/CrossAPp.dll.mdb
